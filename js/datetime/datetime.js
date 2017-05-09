@@ -139,7 +139,7 @@
 
 
         function createUL() {
-            var tpl = __inline("/static/tpl/datetime.tpl");
+            var tpl = __inline("../tpl/datetime.tpl");
             var html = tpl({
                 id: opts.id,
                 title: opts.title,

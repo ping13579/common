@@ -95,7 +95,7 @@
         }
 
         function createUL() {
-            var tpl = __inline("/static/tpl/Selector.tpl");
+            var tpl = __inline("../tpl/Selector.tpl");
             var html = tpl({
                 id: opts.id,
                 title: opts.title,

@@ -168,7 +168,7 @@
         }
 
         function CreateDateUI() {
-            var tpl = __inline("/static/tpl/date.tpl");
+            var tpl = __inline("../tpl/date.tpl");
             var html = tpl({
                 id: opts.id,
                 title: opts.title,
